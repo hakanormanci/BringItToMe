@@ -1,0 +1,4 @@
+node_modules/
+market.db
+.env
+dist/

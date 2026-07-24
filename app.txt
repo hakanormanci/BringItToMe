@@ -1,0 +1,9 @@
+i want to make a web app for small grocery shops in germany.with this app shops could get orders from neighboors.
+
+1- users can send their orders via WhatsApp
+2- there will be no product list.
+3- customers can write their needings in plain text format.
+4- ai will generate their plain text to an order list
+5- generated list will be sent to grocery worker.
+6- if there is no info about brand, quantity etc. worker choose relevant one.
+7- 
