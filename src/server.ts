@@ -24,6 +24,8 @@ const channels = {
 const app = express();
 app.use(express.json());
 
+app.get("/", (_req, res) => res.json({ status: "ok" }));
+
 for (const channel of Object.values(channels)) {
   const path = `/webhook/${channel.name}`;
   app.get(path, (req, res) => channel.verify(req, res));
